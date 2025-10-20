@@ -1,7 +1,7 @@
 import {
     IoOpenOutline, IoSunny, IoMoon
 } from "react-icons/io5";
-import { SiPython, SiRust, SiJupyter, SiPandas, SiPlotly, SiPytorch, SiTensorflow, SiKeras, SiSelenium, SiScikitlearn, SiOpenaigym, SiNginx, SiGunicorn, SiGit, SiGithub, SiLinkedin, SiOpenai } from "react-icons/si";
+import { SiPython, SiRust, SiJupyter, SiPandas, SiPlotly, SiPytorch, SiTensorflow, SiKeras, SiSelenium, SiScikitlearn, SiOpenaigym, SiNginx, SiGunicorn, SiGit, SiGithub, SiLinkedin, SiJekyll, SiPydantic } from "react-icons/si";
 import { BiLogoAws } from "react-icons/bi";
 
 import { createElement } from "react";
@@ -27,7 +27,8 @@ const iconMap = {
     nginx: SiNginx,
     gunicorn: SiGunicorn,
     git: SiGit,
-
+    jekyll: SiJekyll,
+    pydantic: SiPydantic,
 };
 
 export default function Icon(props) {

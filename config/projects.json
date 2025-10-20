@@ -12,7 +12,7 @@
             "gunicorn"
         ],
         "description": "Implemented data transformation pipelines with Pandas. Developed interactive dashboard with plotly dash. Deployed on AWS using EC2, S3, and Route 53 with automated data refresh and daily code deployment.",
-        "desktopImage": "/armchair-strategist.png"
+        "desktopImage": "/armchair_strategist.png"
     },
     {
         "name": "Image Colorization with Generative Adversarial Network (GAN)",
@@ -26,6 +26,18 @@
         ],
         "description": "Co-led a team of 15. Trained cGAN with U-Net architecture on 25,000-image MIRFLICKR dataset using slurm on University of Michigan's Great Lakes HPC Cluster",
         "desktopImage": "/cloud.jpg"
+    },
+    {
+        "name": "Ultimate Fan Trip Routing Optimizer",
+        "link": "https://ultimate-fan-trip.dev/",
+        "github": "https://github.com/Casper-Guo/Ultimate-Fan-Trip-Solver",
+        "icons": [
+            "Python",
+            "pydantic",
+            "jekyll"
+        ],
+        "description": "Integrated schedule data from major professional leagues and the Google Maps API, derived linear programming formulation, and implemented a solver to optimize trips for following a team to all away opponents.",
+        "desktopImage": "/ultimate_trip.jpg"
     },
     {
         "name": "Rate My Professors (RMP) Sentiment Analysis",
@@ -49,30 +61,5 @@
         ],
         "description": "Built tournament-style evaluation CLI for game-playing agents. Implemented asynchronous dynamic programming value iteration in Rust to calculate the optimal strategy for an ancient board game.",
         "desktopImage": "/royal_game.svg"
-    },
-    {
-        "name": "Sports Data Analysis and Visualization",
-        "icons": [
-            "Python",
-            "Jupyter",
-            "pandas",
-            "plotly",
-            "scikit-learn",
-            "selenium"
-        ],
-        "description": "Led a team of 15 students who proposed and researched sports-related data stories. Taught exploratory data analysis, data visualization, machine learning and statistical modelling.",
-        "desktopImage": "/sport_data.png"
-    },
-    {
-        "name": "Reinforcement Learning Crashcourse",
-        "github": "https://github.com/MichiganDataScienceTeam/F23-Reinforcement-Learning",
-        "icons": [
-            "Python",
-            "Jupyter",
-            "Pytorch",
-            "gymnasium"
-        ],
-        "description": "Co-led a team of 10. Taught the basics of reinforcement learning and trained an agent to land a simulated lunar lander using advantage actor-critic method.",
-        "desktopImage": "/lunar_lander.png"
     }
 ]
