@@ -30,8 +30,6 @@ export default async function Home() {
           <h2 className='text-3xl font-bold'>Some of My Projects</h2>
           <Button text="View All My Projects 👨‍💻" href='/projects' />
         </div>
-
-
         {
           projectsData.slice(0, 3).map((projectData, index) => (<ProjectSection key={projectData.name} data={projectData} left={index % 2} />))
         }
@@ -48,10 +46,9 @@ export default async function Home() {
           />
           <div className='md:w-2/3 lg:w-1/2'>
             <h2 className='text-3xl font-bold mb-2'>A bit about me</h2>
-            <p className='mb-2'>I graduated from the University of Michigan in 2024 with a bachelor of science in engineering in data science <i>summa cum laude</i>. I also completed two minors, in math and linguistics respectively. 〽️ Go Blue! 〽️</p>
-            <p className='mb-2'>I am now pursuing a master&apos;s degree in computer science at the Georgia Institute of Technology, expecting to graduate in spring 2026. 🐝 Sting &apos;Em! 🐝</p>
-            <p className='mb-2'>You can probably guess by now that I am a big college football fan. I will also not give up an opportunity to nerd out about formula 1 🏎️ and talk your ears off about soccer ⚽.</p>
-            <p className='mb-2'>Otherwise, catch me on the hiking trails 🗻 or in the theaters 🎭.</p>
+            <p className='mb-2'>I am a quantitative developer at DL Trading where I work on backend systems to enable quoting and trading sports markets and contracts.</p>
+            <p className='mb-2'>I am an alumni of the University of Michigan with a major in data science and minors in math and linguistics. I received my master&apos;s degree in computer science from Georgia Tech, specializing in computing systems.</p>
+            <p className='mb-2'>Major college football and hockey fan 🏈🏒 and growing the formula 1 🏎️ and soccer ⚽ crowd at DL. Just now getting into pro cycling 🚴.</p>
             <Button text="View My Resume 📄" href='/resume' />
           </div>
         </div>

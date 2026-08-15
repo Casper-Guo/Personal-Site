@@ -11,7 +11,7 @@
             "nginx",
             "gunicorn"
         ],
-        "description": "Implemented data transformation pipelines with Pandas. Developed interactive dashboard with plotly dash. Deployed on AWS using EC2, S3, and Route 53 with automated data refresh and daily code deployment.",
+        "description": "F1 strategy dashboard for examining race strategy and telemetry.",
         "desktopImage": "/armchair_strategist.png"
     },
     {
@@ -24,7 +24,7 @@
             "TensorFlow",
             "Keras"
         ],
-        "description": "Co-led a team of 15. Trained cGAN with U-Net architecture on 25,000-image MIRFLICKR dataset using slurm on University of Michigan's Great Lakes HPC Cluster",
+        "description": "Trained cGAN with U-net architecture to colorize black and white images.",
         "desktopImage": "/cloud.jpg"
     },
     {
@@ -36,21 +36,8 @@
             "pydantic",
             "jekyll"
         ],
-        "description": "Integrated schedule data from major professional leagues and the Google Maps API, derived linear programming formulation, and implemented a solver to optimize trips for following a team to all away opponents.",
+        "description": "Integer linear programming solver built on top of sports scheduling and Google Maps API to calculate optimal trip to away games.",
         "desktopImage": "/ultimate_trip.jpg"
-    },
-    {
-        "name": "Rate My Professors (RMP) Sentiment Analysis",
-        "github": "https://github.com/Casper-Guo/EECS-486-RMP-Sentiment-Analysis",
-        "icons": [
-            "Python",
-            "Jupyter",
-            "pandas",
-            "selenium",
-            "scikit-learn"
-        ],
-        "description": "Scraped data of 3500 professors from RMP using selenium and beautifulsoup. Optimized and benchmarked seven models and three text encodings for sentiment analysis task. Achieved >0.80 precision and recall.",
-        "desktopImage": "/rmp.png"
     },
     {
         "name": "Royal Game of Ur Optimizer",
@@ -59,7 +46,7 @@
             "Python",
             "Rust"
         ],
-        "description": "Built tournament-style evaluation CLI for game-playing agents. Implemented asynchronous dynamic programming value iteration in Rust to calculate the optimal strategy for an ancient board game.",
+        "description": "Asynchronous dynamic programming value iteration to determine optimal play in a board game with a small state space (~137M states).",
         "desktopImage": "/royal_game.svg"
     }
 ]

@@ -17,6 +17,15 @@ export const metadata = {
 export default function Resume() {
     const resume = [
         {
+            // deliberate trailing white space to keep the keys unique
+            "company": "DL Trading ",
+            "dates": "June 2026 - Present",
+            "role": "Quantitative Developer",
+            "location": "Chicago, IL",
+            "image": "/logos/dl.png",
+            "bullets": []
+        },
+        {
             "company": "Amazon",
             "dates": "Aug - Nov 2025",
             "role": "Business Intelligence Engineer Intern",
@@ -49,20 +58,20 @@ export default function Resume() {
                 "Performed a week of on-call duty involving handling data requests using Trino and BigQuery and triaging and debugging failing pipelines"
             ]
         },
-        {
-            "company": "Michigan Data Science Team",
-            "dates": "Aug 2021 - Aug 2024",
-            "role": "Vice President of Education, Project Lead",
-            "location": "Ann Arbor, MI",
-            "image": "/logos/mdst.png",
-            "bullets": [
-                "Project lead for webscrapping & video synthesis, reinforcement learning, image colorization, and sports data analysis and visualization (see projects page)",
-                "Collaborated with other execs on semesterly new member recruiting effort by developing onboarding materials, increased club enrollment by 200+% over two-year tenure",
-                "Revamped two Python tutorials, developed statistics and machine learning challenges, improved setup guides, created a troubleshooting FAQ document, and oversaw a Q&A forum for 100+ new members every semester",
-                "Managed weekly office hours and tutorial sessions with 150+ total attendees to lower the barrier of entry to data science",
-                "Built job opportunity repositories for members with no-code contribution workflows via GitHub actions"
-            ]
-        }
+        // {
+        //     "company": "Michigan Data Science Team",
+        //     "dates": "Aug 2021 - Aug 2024",
+        //     "role": "Vice President of Education, Project Lead",
+        //     "location": "Ann Arbor, MI",
+        //     "image": "/logos/mdst.png",
+        //     "bullets": [
+        //         "Project lead for webscrapping & video synthesis, reinforcement learning, image colorization, and sports data analysis and visualization (see projects page)",
+        //         "Collaborated with other execs on semesterly new member recruiting effort by developing onboarding materials, increased club enrollment by 200+% over two-year tenure",
+        //         "Revamped two Python tutorials, developed statistics and machine learning challenges, improved setup guides, created a troubleshooting FAQ document, and oversaw a Q&A forum for 100+ new members every semester",
+        //         "Managed weekly office hours and tutorial sessions with 150+ total attendees to lower the barrier of entry to data science",
+        //         "Built job opportunity repositories for members with no-code contribution workflows via GitHub actions"
+        //     ]
+        // }
     ];
 
 
@@ -83,17 +92,17 @@ export default function Resume() {
                         </h2>
                         <Experience data={{
                             "company": "Georgia Institute of Technology",
-                            "dates": "Aug 2024 - Apr 2026",
+                            "dates": "Aug 2024 - May 2026",
                             "role": "Master's of Science in Computer Science, Specialization: Computing Systems",
                             "location": "Atlanta, GA",
                             "image": "/logos/GT.png",
                         }} ><p>
-                                <span className="font-bold">Coursework:</span> Computer Networks, Data Center Networks & Systems, Software Hardware Co-Design for ML, ML Security, Blockchain, Algorithms, Tech Policy & Privacy Law, Online Communities
+                                <span className="font-bold">Coursework:</span> High Performance Computer Architecture, Computer Networks, Data Center Networks & Systems, Software Hardware Co-Design for ML, ML Security, Blockchain, Algorithms, Tech Policy & Privacy Law, Online Communities
                             </p></Experience>
                         <Experience data={{
                             "company": "University of Michigan",
                             "dates": "Aug 2020 - May 2024",
-                            "role": "Bachelor of Science in Engineering in Data Science summa cum laude, Math Minor, Linguistics Minor - 3.90/4.00 GPA",
+                            "role": "Bachelor of Science in Engineering in Data Science summa cum laude, Math Minor, Linguistics Minor",
                             "location": "Ann Arbor, MI",
                             "image": "/logos/michigan.png",
 

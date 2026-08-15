@@ -12,7 +12,7 @@ export default function Hero() {
             </span>
           </h1>
           <p className="mt-2">
-            University of Michigan data science class of 2024 〽️, now MSCS @ Georgia Tech. Interested in working in data science 📈, data engineering 🔢, and open-source 🔓.
+            Trading, watching, and talking sports at DL Trading.
           </p>
           <div className="flex justify-start gap-5 pt-2 flex-wrap">
             <Link
